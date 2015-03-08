@@ -1,0 +1,15 @@
+extend layout
+block content
+	h2.pageHeader
+		span=title
+	each game in games
+		.game
+			div
+				img(src=game.img_path)
+				h2=game.title
+				p=game.description
+				.links Download
+					a(href="http://itunes.com/apps/#{game.ios_name}")
+						i(class="fa fa-apple")
+					a(href="http://play.google.com/store/apps/details?id=#{game.android_package_name}")
+						i(class="fa fa-android")

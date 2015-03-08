@@ -1,0 +1,19 @@
+doctype html
+html(lang="en")
+	head
+		title #{title}
+		link(rel='stylesheet', href='/font-awesome-4.3.0/css/font-awesome.min.css')
+		link(rel='stylesheet', href='/style/main.css')
+		block head
+	body
+		.navigation
+			div
+				a.brainsplosion-icon(href="/")
+				a.button.primary(href="/") Our Games
+				a.button.fa.fa-gamepad(href="/games")
+				a.button.fa.fa-users(href="/contact")
+		header
+			img(src="/images/brainsplosion_games_logo_white.jpg")
+		.layout_container
+			block content
+		footer &copy;2015 Brainsplosion LLC
