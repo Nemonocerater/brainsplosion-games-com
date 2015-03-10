@@ -2,14 +2,14 @@ var jQuery = require ('jquery');
 var $ = jQuery;
 
 var animation_duration = 1000;
+var image_height_ratio_assumption = 0.57;
 
 module.exports = exports = function ImageFader (id) {
 	var image_fader = $('#' + id);
 	var images = image_fader.find('img');
 	var index = 0;
 
-	var firstImage = $(images[index]); 
-	resize.call (image_fader, firstImage.height());
+	resize.call (image_fader, image_fader.width() * image_height_ratio_assumption);
 
 	setInterval (function ImageFader_timeout () {
 		$(images[index]).fadeOut(animation_duration);

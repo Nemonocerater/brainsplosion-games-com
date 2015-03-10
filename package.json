@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "appengine": "git://192.30.252.129/GoogleCloudPlatform/appengine-nodejs.git",
+    "bootstrap": "^3.3.2",
     "browserify-middleware": "^5.0.1",
     "domready": "^1.0.7",
     "express": "^4.12.0",
