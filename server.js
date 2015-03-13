@@ -30,7 +30,7 @@ app.get ('/', function (req, res) {
 
 app.get ('/games', function (req, res) {
 	res.render ('games', {
-		title: 'Recommened Games',
+		title: 'Recommended Games',
 		games: games
 	});
 });
