@@ -51,4 +51,5 @@ app.get ('/contact', function (req, res) {
 
 
 // Run the Server
-app.listen(port);
+app.listen (port);
+console.log ("Server is now listening on port " + port);

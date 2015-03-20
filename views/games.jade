@@ -3,7 +3,7 @@ block content
 	h2.pageHeader
 		span=title
 	each game in games
-		.game
+		.game(id=game.id)
 			div
 				img(src=game.img_path)
 				h2=game.title
