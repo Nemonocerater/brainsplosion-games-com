@@ -1,5 +1,12 @@
 module.exports = exports = [
 	{
+		img_path: "/images/TapTitan.jpg",
+		title: "Tap Titans",
+		description: "Tap Titans is at the pinnacle of rewarding level up systems.  Each level checkpoint that a hero hits unlocks a special ability which could help you get more gold or boost the power of other heros, all while helping you go from doing one damage to making 100 Trillion damage seems like stubbing your toe.",
+		android_package_name: "com.gamehivecorp.taptitans",
+		ios_path: "tap-titans/id940596201"
+	},
+	{
 		img_path: "/images/FlappingOnline.jpg",
 		title: "Flapping Online",
 		description: "Thought you were good at Flappy Bird? Prove it! In Flapping Online you play against other people in 5 minute tournaments to see who's the best at tapping, flapping, and dodging. Oh, and did I mention that there are skin.",
