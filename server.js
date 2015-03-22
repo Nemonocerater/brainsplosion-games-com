@@ -49,6 +49,13 @@ app.get ('/contact', function (req, res) {
 	});
 });
 
+app.get ('/image-display/:image', function (req, res) {
+	var image = req.params.image;
+	res.render ('image-display', {
+		title: image
+	});
+});
+
 
 // Run the Server
 app.listen (port);
