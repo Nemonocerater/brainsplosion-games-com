@@ -9,7 +9,7 @@ block content
 				h2=game.title
 				p=game.description
 				.links Download
-					a(href="https://itunes.apple.com/us/app/#{game.ios_path}")
+					a(href="#{game.ios_link}")
 						i(class="fa fa-apple")
-					a(href="http://play.google.com/store/apps/details?id=#{game.android_package_name}")
+					a(href="#{game.android_link}")
 						i(class="fa fa-android")
