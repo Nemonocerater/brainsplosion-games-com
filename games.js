@@ -1,5 +1,13 @@
 module.exports = exports = [
 	{
+		img_path: "/images/games/LetsCreatePottery.jpg",
+		id: "lets-create-pottery",
+		title: "Let's Create Pottery HD",
+		description: "Ever want to make awesome pottery, but there was no where you could go or it was too expensive.  Let's Create Pottery will allow you fullful your passion to create beautiful pottery, and if you fall in love with one of your creations you can have it made and delivered from within the app.",
+		android_link: "http://bit.ly/bsp-and-lets-create-pottery",
+		ios_link: "http://bit.ly/bsp-ios-lets-create-pottery"
+	},
+	{
 		img_path: "/images/games/TapTitan.jpg",
 		id: "tap-titans",
 		title: "Tap Titans",
