@@ -1,5 +1,13 @@
 module.exports = exports = [
 	{
+		img_path: "/images/games/magazine_mogul.jpg",
+		id: "magazine-mogul",
+		title: "Magazine Mogul",
+		description: "Thought running a magazing company was boring... think again!  In Magazine Mogul, you grow from a tiny magazine shop to a Media Empire that even uses its influence to build the town it resides in into a large city in order to increase it's user base.",
+		android_link: "http://bit.ly/bsp-and-magazine-mogul",
+		ios_link: "http://bit.ly/bsp-ios-magazine-mogul"
+	},
+	{
 		img_path: "/images/games/LetsCreatePottery.jpg",
 		id: "lets-create-pottery",
 		title: "Let's Create Pottery HD",
